@@ -1,0 +1,8 @@
+
+Small Report for Multi Thread Ticket lab
+
+To address the safty issues accociated with multi threaded programming I used Mutex,
+due to it having the Lock and Unlock functions.
+
+The Lock function means that the specified Thread owns the Mutex untill the Unlock function is called, 
+this then means while a thread is locked it can run without interuptions from other threads.
